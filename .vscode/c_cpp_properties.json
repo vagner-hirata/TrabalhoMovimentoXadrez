@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "E:/msys64/ucrt64/bin/g++.exe",
+            "compilerArgs": [
+                "-g",
+                "-Wall",
+                "-o",
+                "${fileBasenameNoExtension}.exe",
+                "${filename}"
+            ]
+        }
+    ],
+    "version": 4
+}
