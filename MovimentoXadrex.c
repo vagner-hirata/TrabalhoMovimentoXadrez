@@ -49,14 +49,14 @@ int main( ) {
   // Move o Bispo 5 casas na diagonal para cima a direita
   moverBispo(5);
 
-  // Movimento do cavalo para esquerda.
+
   for(int i = 0; i < 5; i++) {
       if(i > 1) continue;
-      printf("Cima\n");
+      printf("Cima\n"); // Imprime o movimento do cavalo para cima.
     for(int j = 0; j < 5 && i > 0; j++) {
-      // Imprime o movimento do cavalo.
+      
       if(j > 0) break;
-      printf("Direita\n");// Imprime o movimento do cavalo.
+      printf("Direita\n");// Imprime o movimento do cavalo para direita.
     }
     
   }
