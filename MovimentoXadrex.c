@@ -50,6 +50,8 @@ int main( ) {
   moverBispo(5);
 
 
+
+  // Movimentação do cavalo.
   for(int i = 0; i < 5; i++) {
       if(i > 1) continue;
       printf("Cima\n"); // Imprime o movimento do cavalo para cima.
